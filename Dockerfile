@@ -2,7 +2,7 @@
 FROM ubuntu:22.04
 
 # Actualizar la lista de actualizaciones
-RUN apt-get update
+RUN apt-get update --fix-missing
 
 # Actualizar la imagen
 RUN apt-get upgrade -y
